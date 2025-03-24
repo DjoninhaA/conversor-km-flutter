@@ -1,9 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:shared_preferences_web/shared_preferences_web.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+void main() async{
   runApp(const MyApp());
+  await Firebase.initializeApp(
+  options: FirebaseOptions(
+    apiKey: "AIzaSyDJOMvmpay3nqXzmhFqrRyKLjcAr8TMGss",
+    projectId: "1:120637822661:android:c68c101bc72d39694d42ac",
+    messagingSenderId: "120637822661",
+    appId: "conversor-4f9d4",
+    databaseURL: "https://conversor-4f9d4-default-rtdb.firebaseio.com"
+  ),
+);
 }
 
 class MyApp extends StatelessWidget {

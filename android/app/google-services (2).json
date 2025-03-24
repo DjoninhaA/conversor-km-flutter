@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "120637822661",
+    "project_id": "conversor-4f9d4",
+    "storage_bucket": "conversor-4f9d4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120637822661:android:c68c101bc72d39694d42ac",
+        "android_client_info": {
+          "package_name": "biopark.edu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJOMvmpay3nqXzmhFqrRyKLjcAr8TMGss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
